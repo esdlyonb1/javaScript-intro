@@ -1,1 +1,14 @@
-qsdlkqsdj
+.rouge{
+    color: red;
+}
+
+.bleu{
+    color: blue;
+}
+
+.vert{
+    background-color: green;
+}
+.rose{
+    background-color: pink;
+}
