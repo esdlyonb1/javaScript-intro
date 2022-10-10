@@ -121,3 +121,6 @@ console.log(mots.length)
         console.log("tu es MINEUR")
     }
 
+// implementer une calculatrice
+
+ // jeu de pendu (base sur un tableau de mots)
