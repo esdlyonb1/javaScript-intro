@@ -23,14 +23,29 @@ function maFonction(){
 
  }
 
- setInterval( ()=>{
-     leBody.classList.toggle('rose')
 
- } ,3000)
 
  let mots = ["Bonjour", "Hello", "Ola", "你好" ]
  // a intervalle de deux secondes, utiliser un des autres mots du tableau
  // la chaine de caracteres doit remplacer le texte du paragraphe
 
+ let message = "coucou et coucou et coucou"
+console.log(mots.length)
 
+// methode for :
+
+ for(let i = 0; i<mots.length; i++){
+     setTimeout(()=>{
+         document.querySelector(".rouge").textContent = mots[i]
+     },1000)
+ }
+
+//methode forEach
+    mots.forEach((mot)=>{
+        setTimeout(()=>{
+
+                document.querySelector(".rouge").textContent = mot
+            },
+            1000*mots.indexOf(mot) )
+    })
 
